@@ -1,0 +1,12 @@
+#!/usr/bin/env python
+
+
+
+def calculate_age(birth_year):
+  current_year = 2023
+  age = current_year - birth_year
+  return age
+  
+birth_year = int(input("Enter birth year: "))
+age = calculate_age(birth_year)
+print("Your age is:", age)
